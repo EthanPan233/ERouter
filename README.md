@@ -12,13 +12,16 @@ cd build
 cmake ../src
 cmake --build
 ./OneStepRouter [benchmark-name] [routing-algorithm]
+```
 
 for example:
 
 ```bash
 ./OneStepRouter oswald maze
+```
 
 or
 
 ```bash
 ./OneStepRouter wavy astar
+```
